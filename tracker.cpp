@@ -4,7 +4,7 @@
 #include "tracker.h"
 #include <csignal>
 
-// Global tracker instance for signal handling
+// Global tracker used for instance for signal handling
 Tracker* g_tracker = nullptr;
 
 // Signal handler for graceful shutdown
